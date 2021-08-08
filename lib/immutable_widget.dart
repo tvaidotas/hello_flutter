@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class ImmutableWidget extends StatelessWidget {
   @override
-  Widget build(BuildContext buildContext) {
+  Widget build(BuildContext context) {
     return Container(
         color: Colors.green,
         child: Padding(
