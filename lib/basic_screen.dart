@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:hello_flutter/immutable_widget.dart';
 import 'package:hello_flutter/text_layout.dart';
 
 class BasicScreen extends StatelessWidget {
@@ -19,10 +18,9 @@ class BasicScreen extends StatelessWidget {
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          AspectRatio(
-            aspectRatio: 1.0,
-            child: ImmutableWidget(),
+        children: <Widget>[
+          Image.asset(
+            'assets/beach.jpg',
           ),
           TextLayout(),
         ],
